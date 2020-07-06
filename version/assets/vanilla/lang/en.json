@@ -1,0 +1,40 @@
+{
+    "language.name": "English",
+    "language.region": "Canada",
+    "language.code": "en_ca",
+
+    "window.title": "{TITLE} - {VERSION}",
+    "game.title": "Minigame Lobby",
+    "game.version": "Alpha 00",
+
+    "broken.message": "This Version Of The Game Is Broken And Has Been Removed. Please Switch To A Different Version Of The Game.",
+    "broken.buttons_0": "Quit",
+    "outdated.message": "There Is A Newer Version Of The Game ({NEWVERSION}).",
+    "outdated.buttons_0": "Main Menu",
+    "outdated.buttons_1": "Quit",
+    "unknown.message": "Failed To Check Most Recent Version. This Version May Be Broken.",
+    "unknown.buttons_0": "Main Menu",
+    "unknown.buttons_1": "Quit",
+
+    "loadscreen.cpuusage": "§0CPU Usage: {PERCENT}%",
+    "loadscreen.ramusage": "§0RAM Usage: {PERCENT}%",
+
+    "mainmenu.buttons_0": "§cLAN Play",
+    "mainmenu.buttons_1": "§cJoin Server",
+    "mainmenu.buttons_2": "Options",
+    "mainmenu.buttons_3": "Quit",
+
+    "optionsmenu.buttons_0": "§cGraphics",
+    "optionsmenu.buttons_1": "§cSounds",
+    "optionsmenu.buttons_2": "Language",
+    "optionsmenu.buttons_3": "§cChat",
+    "optionsmenu.buttons_4": "Assetpacks",
+    "optionsmenu.buttons_5": "§cAccessibility",
+    "optionsmenu.buttons_8": "Back",
+
+    "assetpacksmenu.buttons_0": "Cancel",
+    "assetpacksmenu.buttons_1": "Reload",
+    "assetpacksmenu.buttons_2": "Apply",
+
+    "languagemenu.buttons_0": "Back"
+}
