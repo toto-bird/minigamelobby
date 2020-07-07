@@ -42,8 +42,8 @@ class Queue():
 #              SETUP LOGGING SYSTEM               #
 ###################################################
 logger.remove(0)
-consoleformat = '<yellow>[</yellow><green>{time:YYYY-MM-DD HH:mm:ss}</green><yellow>]</yellow> <yellow>[</yellow><cyan>{module}</cyan><yellow>:</yellow><cyan>{line}</cyan><yellow>)] [</yellow><level>{level}</level><yellow>]</yellow> <level>{message}</level>'
-fileformat = '[{time:YYYY-MM-DD HH:mm:ss}] [{module}:{line})] [{level}] {message}'
+consoleformat = '<yellow>[</yellow><green>{time:YYYY-MM-DD HH:mm:ss}</green><yellow>]</yellow> <yellow>[</yellow><cyan>{module}</cyan><yellow>:</yellow><cyan>{line}</cyan><yellow>] [</yellow><level>{level}</level><yellow>]</yellow> <level>{message}</level>'
+fileformat = '[{time:YYYY-MM-DD HH:mm:ss}] [{module}:{line}] [{level}] {message}'
 logger.add(
     sys.stderr,
     level=0,
@@ -599,9 +599,9 @@ def main():
     pressedkeys = set()
     panoramatick = 0
     logger.debug(f'Loaded Scene "main"')
-    #try:
-    #    getaudio('sounds.music.menu', assets).play(-1)
-    #except AttributeError: pass
+    try:
+        getaudio('sounds.music.menu', assets).play(-1)
+    except AttributeError: pass
     while True:
         resize = False
         # Mouse Pos
