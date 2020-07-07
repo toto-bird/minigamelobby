@@ -4,7 +4,7 @@
 > ## Table Of Contents
 > > [Installation](#installation)
 >
-> > [Code Of Conduct](#conductcode)
+> > [Code Of Conduct](#conductcode)\
 > > [License](#license)
 
 ---
