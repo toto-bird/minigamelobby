@@ -57,7 +57,7 @@
 
 ---
 
-> ## License
+> ## License <a id="license"></a>
 > <details>
 > <summary>BSD 3-Clause License</summary>
 >
